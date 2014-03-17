@@ -2,17 +2,15 @@
 window.euler = window.euler || {};
 
 euler.threeFive = function() {
-  var f, i, list, maxedOut, sum, t;
+  var f, i, maxedOut, sum, t;
   maxedOut = false;
   sum = 0;
   i = 1;
-  list = [];
   while (!maxedOut) {
     t = 3 * i;
     f = 5 * i;
     if (t < 1000) {
       sum += t;
-      list.push(t);
     } else {
       maxedOut = true;
     }
@@ -21,6 +19,5 @@ euler.threeFive = function() {
     }
     i += 1;
   }
-  console.log(list);
   return sum;
 };

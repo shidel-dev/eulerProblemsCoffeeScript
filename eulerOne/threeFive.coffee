@@ -9,7 +9,6 @@ euler.threeFive = ->
     f = 5 * i
     if t < 1000
       sum += t
-      list.push t
     else 
       maxedOut = true
     if f < 1000 and f % 3 != 0 
