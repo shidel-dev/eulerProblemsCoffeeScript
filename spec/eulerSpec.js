@@ -1,5 +1,7 @@
-describe("Multiples of 3 and 5", function(){
-	
+describe("euler problem one", function(){
+	it("finds the sum of all multiples of 3 and 5 below 1000", function(){
+		expect(euler.threeFive()).toBe(233168)
+	})
 })
 
 describe("largest Palindrome solver",function(){
