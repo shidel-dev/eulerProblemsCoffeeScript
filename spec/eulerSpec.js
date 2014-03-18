@@ -24,13 +24,13 @@ describe("euler problem four",function(){
 });
 
 describe("euler problem five", function(){
-	it("it find the smallest number that can be evenly divided by all numbers 1-20", function(){
+	it("find the smallest number that can be evenly divided by all numbers 1-20", function(){
 		expect(euler.smallestMultiple(1,20)).toBe(232792560);
 	})
 })
 
 describe("euler problem six", function(){
-	it("it finds the diffrence between the square of sums and sum of the squares", function(){
+	it("finds the diffrence between the square of sums and sum of the squares", function(){
 		expect(euler.sumSquareDiff(100)).toBe(25164150)
 	})
 })
