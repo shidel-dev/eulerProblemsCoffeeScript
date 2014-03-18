@@ -29,6 +29,11 @@ describe("euler problem five", function(){
 	})
 })
 
+describe("euler problem six", function(){
+	it("it finds the diffrence between the square of sums and sum of the squares", function(){
+		expect(euler.sumSquareDiff(100)).toBe(25164150)
+	})
+})
 
 
 
