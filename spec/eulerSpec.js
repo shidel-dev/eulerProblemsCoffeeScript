@@ -23,6 +23,12 @@ describe("euler problem four",function(){
 	});
 });
 
+describe("euler problem five", function(){
+	it("it find the smallest number that can be evenly divided by all numbers 1-20", function(){
+		expect(euler.smallestMultiple).toBe(232792560);
+	})
+})
+
 
 
 
