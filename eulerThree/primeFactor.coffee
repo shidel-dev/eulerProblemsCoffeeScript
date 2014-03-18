@@ -1,4 +1,5 @@
-window.euler = window.euler || {}
+
+if not window.euler then window.euler = {}
 
 euler.primeFactor = (n)->
 	i = 2
