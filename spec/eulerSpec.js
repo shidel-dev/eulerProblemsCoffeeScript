@@ -6,7 +6,7 @@ describe("euler problem one", function(){
 
 describe("euler problem two", function(){
   it("finds the sum of even fib numbers less then 4 million", function(){
-  	expect(new euler.evenFibs(4000000).sum).toBe(4613732);
+  	expect(euler.evenFibSum(4000000)).toBe(4613732);
   });
 });
 
