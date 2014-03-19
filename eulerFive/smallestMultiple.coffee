@@ -6,13 +6,9 @@ euler.smallestMultiple = (lower, upper)->
       xN = n
       n = m % n
       m = xN
-
     m
-
+    
   lcm = 1
   for x in [lower..upper]
       lcm = (x * lcm)/gcd(x, lcm)
-  lcm	  	
-
-
-  
+  lcm
