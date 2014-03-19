@@ -35,8 +35,8 @@ describe("euler problem six", function(){
 	})
 })
 
-
-
-
-
-
+describe("euler problem eight", function(){
+	it("finds the sum of five consecutive digits in a 1000 digit number", function(){
+		expect(euler.largestProduct()).toBe(40824)
+	})
+})
