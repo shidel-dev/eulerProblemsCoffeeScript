@@ -10,7 +10,6 @@ euler.largestProduct = ->
     product = 1
     for n in [0..4]
       product *= blobArr[j + n]
-    debugger
     largest = product if product > largest
     j += 1
   largest
